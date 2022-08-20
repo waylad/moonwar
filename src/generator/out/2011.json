@@ -1,0 +1,24 @@
+{
+  "name": "WarAlpha Ship 2011",
+  "description": "A WarAlpha Upgradable Spaceship",
+  "external_url": "https://waralpha.io/assets/ships/2011.svg",
+  "image": "ipfs://QmYFhspNaYWXTFL399jZPh1irx5vtH2E5G4gzBJAYjxfDu",
+  "attributes": [
+    {
+      "cabin": 2,
+      "rarity": 0.25
+    },
+    {
+      "engine": 0,
+      "rarity": 0.25
+    },
+    {
+      "wing": 1,
+      "rarity": 0.25
+    },
+    {
+      "weapon": 1,
+      "rarity": 0.25
+    }
+  ]
+}

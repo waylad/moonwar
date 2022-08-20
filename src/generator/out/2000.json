@@ -1,0 +1,24 @@
+{
+  "name": "WarAlpha Ship 2000",
+  "description": "A WarAlpha Upgradable Spaceship",
+  "external_url": "https://waralpha.io/assets/ships/2000.svg",
+  "image": "ipfs://QmadNJttyfvN8gxv8a95xWhUFsuW8AgJ3H7GcZ4M2pwiUL",
+  "attributes": [
+    {
+      "cabin": 2,
+      "rarity": 0.25
+    },
+    {
+      "engine": 0,
+      "rarity": 0.25
+    },
+    {
+      "wing": 0,
+      "rarity": 0.25
+    },
+    {
+      "weapon": 0,
+      "rarity": 0.25
+    }
+  ]
+}

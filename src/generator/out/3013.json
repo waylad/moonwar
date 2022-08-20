@@ -1,0 +1,24 @@
+{
+  "name": "WarAlpha Ship 3013",
+  "description": "A WarAlpha Upgradable Spaceship",
+  "external_url": "https://waralpha.io/assets/ships/3013.svg",
+  "image": "ipfs://QmNsnDmVGkpeYLB7wv9Pb7ZuNLugwPBJwyKBAJyxm6ogax",
+  "attributes": [
+    {
+      "cabin": 3,
+      "rarity": 0.25
+    },
+    {
+      "engine": 0,
+      "rarity": 0.25
+    },
+    {
+      "wing": 1,
+      "rarity": 0.25
+    },
+    {
+      "weapon": 3,
+      "rarity": 0.25
+    }
+  ]
+}
