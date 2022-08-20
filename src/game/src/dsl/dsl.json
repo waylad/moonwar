@@ -1,0 +1,390 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "starX": 160,
+      "starY": 132,
+      "background": "bg8",
+      "enemyShipCode": "0001",
+      "enemySpeed": 100,
+      "enemyRateOfFire": 1,
+      "enemyHealth": 2,
+      "story": {
+        "statement": "After staying in cryostasis for 300 years, you awake in a new galaxy. A ship is hailing you, asking for identification.",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You reply with your earth ID",
+            "story": {
+              "statement": "The ship is not satisfied with your response and attacks you. You loose 3 health points.",
+              "effect": {
+                "addToPlayerHealth": -3
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "You attack the ship",
+            "story": {
+              "statement": "You damage the ship. It looses 1 health point and returns fire.",
+              "effect": {
+                "addToEnemyHealth": -1
+              },
+              "responses": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "starX": 220,
+      "starY": 292,
+      "background": "bg5",
+      "enemyShipCode": "1001",
+      "enemySpeed": 100,
+      "enemyRateOfFire": 1,
+      "enemyHealth": 2,
+      "story": {
+        "statement": "Want more health points ?",
+        "effect": {},
+        "responses": [
+          {
+            "response": "Yes, I want health points",
+            "story": {
+              "statement": "You gain 3 health points.",
+              "effect": {
+                "addToPlayerHealth": 3
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "No thanks, I'm fine",
+            "story": {
+              "statement": "Ok fine, what about damaging the enemy?",
+              "effect": {},
+
+              "responses": [
+                {
+                  "response": "Yes, kill him!",
+                  "story": {
+                    "statement": "The enemy looses 2 health points.",
+                    "effect": {
+                      "addToEnemyHealth": -2
+                    },
+                    "responses": []
+                  }
+                },
+                {
+                  "response": "No, I like a challenge",
+                  "story": {
+                    "statement": "Go on then!",
+                    "effect": {},
+                    "responses": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "starX": 322,
+      "starY": 595,
+      "background": "bg3",
+      "enemyShipCode": "0002",
+      "enemySpeed": 100,
+      "enemyRateOfFire": 1,
+      "enemyHealth": 4,
+      "story": {
+        "statement": "You encounter a giant space spider",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You attack the spider",
+            "story": {
+              "statement": "It is very powerfull and you loose 3 health points.",
+              "effect": {
+                "addToPlayerHealth": -3
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "You flee at maximun speed",
+            "story": {
+              "statement": "You successfully distance the spider but damage your engines in the process. You loose 1 thrust point.",
+              "effect": {
+                "addToPlayerThrust": -1
+              },
+              "responses": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "starX": 458,
+      "starY": 87,
+      "background": "bg2",
+      "enemyShipCode": "0122",
+      "enemySpeed": 150,
+      "enemyRateOfFire": 2,
+      "enemyHealth": 4,
+      "story": {
+        "statement": "You pick up a distress signal",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You go to the coordinates",
+            "story": {
+              "statement": "It is a trap, an enemy ship appears and fights you",
+              "effect": {
+                "addToEnemyHealth": 3
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "You ignore the distress signal",
+            "story": {
+              "statement": "You go at your occupations as usual",
+              "effect": {},
+              "responses": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "starX": 448,
+      "starY": 496,
+      "background": "bg5",
+      "enemyShipCode": "2101",
+      "enemySpeed": 150,
+      "enemyRateOfFire": 2,
+      "enemyHealth": 4,
+      "story": {
+        "statement": "You pick up a distress signal",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You go to the coordinates",
+            "story": {
+              "statement": "You rescue a bunch of engineers that offer to upgrade your weapons. You win 2 weapon power points.",
+              "effect": {
+                "addToPlayerWeaponPower": 2
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "You ignore the distress signal",
+            "story": {
+              "statement": "You go at your occupations as usual",
+              "effect": {},
+              "responses": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "starX": 731,
+      "starY": 152,
+      "background": "bg6",
+      "enemyShipCode": "1022",
+      "enemySpeed": 150,
+      "enemyRateOfFire": 3,
+      "enemyHealth": 8
+    },
+    {
+      "id": 7,
+      "starX": 654,
+      "starY": 455,
+      "background": "bg7",
+      "enemyShipCode": "2203",
+      "enemySpeed": 150,
+      "enemyRateOfFire": 3,
+      "enemyHealth": 8
+    },
+    {
+      "id": 8,
+      "starX": 609,
+      "starY": 615,
+      "background": "bg8",
+      "enemyShipCode": "0212",
+      "enemySpeed": 150,
+      "enemyRateOfFire": 3,
+      "enemyHealth": 8
+    },
+    {
+      "id": 9,
+      "starX": 859,
+      "starY": 96,
+      "background": "bg9",
+      "enemyShipCode": "1122",
+      "enemySpeed": 200,
+      "enemyRateOfFire": 4,
+      "enemyHealth": 10
+    },
+    {
+      "id": 10,
+      "starX": 849,
+      "starY": 757,
+      "background": "bg10",
+      "enemyShipCode": "1231",
+      "enemySpeed": 200,
+      "enemyRateOfFire": 4,
+      "enemyHealth": 10,
+      "story": {
+        "statement": "You encounter a huge black rectangular object floating in space",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You approach to scan the object",
+            "story": {
+              "statement": "The object attracts and absorbs you. A few seconds later, you are back in space but with improved weapons, engines and hull. You get +2 points to all attributes.",
+              "effect": {
+                "addToPlayerWeaponPower": 2,
+                "addToEnemyHealth": 2,
+                "addToPlayerThrust": 2
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "You ignore the object and leave",
+            "story": {
+              "statement": "You go at your occupations as usual",
+              "effect": {},
+              "responses": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "starX": 1006,
+      "starY": 425,
+      "background": "bg8",
+      "enemyShipCode": "2321",
+      "enemySpeed": 200,
+      "enemyRateOfFire": 4,
+      "enemyHealth": 10
+    },
+    {
+      "id": 12,
+      "starX": 1237,
+      "starY": 67,
+      "background": "bg2",
+      "enemyShipCode": "3122",
+      "enemySpeed": 200,
+      "enemyRateOfFire": 5,
+      "enemyHealth": 20
+    },
+    {
+      "id": 13,
+      "starX": 1178,
+      "starY": 352,
+      "background": "bg3",
+      "enemyShipCode": "2233",
+      "enemySpeed": 300,
+      "enemyRateOfFire": 5,
+      "enemyHealth": 20
+    },
+    {
+      "id": 14,
+      "starX": 1275,
+      "starY": 635,
+      "background": "bg3",
+      "enemyShipCode": "3333",
+      "enemySpeed": 300,
+      "enemyRateOfFire": 5,
+      "enemyHealth": 20
+    },
+    {
+      "id": 15,
+      "starX": 1482,
+      "starY": 162,
+      "background": "bg5",
+      "enemyShipCode": "3323",
+      "enemySpeed": 300,
+      "enemyRateOfFire": 6,
+      "enemyHealth": 20
+    },
+    {
+      "id": 16,
+      "starX": 1367,
+      "starY": 493,
+      "background": "bg6",
+      "enemyShipCode": "2333",
+      "enemySpeed": 300,
+      "enemyRateOfFire": 8,
+      "enemyHealth": 20,
+      "story": {
+        "statement": "Your scanner picks up a debris field. There might be something to scavange.",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You go check it out",
+            "story": {
+              "statement": "You find a nice Flux Capacitor! You engines are up 2 points",
+              "effect": {
+                "addToPlayerThrust": 2
+              },
+              "responses": []
+            }
+          },
+          {
+            "response": "You suspect a trap and go the other way",
+            "story": {
+              "statement": "You go at your occupations as usual",
+              "effect": {},
+              "responses": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "starX": 1510,
+      "starY": 570,
+      "background": "bg7",
+      "enemyShipCode": "3333",
+      "enemySpeed": 500,
+      "enemyRateOfFire": 10,
+      "enemyHealth": 30,
+      "story": {
+        "statement": "You encounter a huge ship with incredibly powerfull weapons, probably the ruler of this galaxy.",
+        "effect": {},
+        "responses": [
+          {
+            "response": "You attack",
+            "story": {
+              "statement": "Your shot barely scratch the enemy ship and seems to have angered its captain. May god have mercy on you...",
+              "effect": {},
+              "responses": []
+            }
+          },
+          {
+            "response": "You flee",
+            "story": {
+              "statement": "The enemy ship has way more powerfull engines than you. It catches up with you in seconds and opens fire.",
+              "effect": {},
+              "responses": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
