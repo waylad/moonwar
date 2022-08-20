@@ -1,0 +1,2 @@
+import "./SpaceShips";
+import "./SpaceCoins";
