@@ -1,10 +1,10 @@
-## WarAlpha
+## War Alpha Metaverse V2
 
-### Demo Video:
+### Demo Video: https://youtu.be/NSbEqkFKTYY
 
 ### Demo: https://waralpha.io
 
-WarAlpha is a space shooter game on Polygon with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
+War Alpha Metaverse V2 is a space shooter game on Polygon with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
 
 ## About the game
 
@@ -29,7 +29,7 @@ You will see a little story at the beginning of every level with multiple choice
 The game is built with PhaserJS, a 2D Javascript game engine that allows you to pilot the ship and fire at enemies. Use the directional arrows to move the ship and press the space bar to fire. Try to kill the enemy ship, but be careful not to get hit. You have 30 health points then it's game over. Enemies have various health points depending on their level and your responses in the stories. When the enemy is destroyed, it drops some loot. Move your ship over it to get it into your inventory.
 ![](https://waralpha.io/assets/screenshots/level-2.png)
 
-Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Polygon transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can check an explorer to verify the transaction](https://goalseeker.purestake.io/WarAlpha/testnet/asset/105514915).
+Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Polygon transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can check an explorer to verify the transaction](https://mumbai.polygonscan.com/tx/0x742bf07e995faddfabc23262fe1ddce4b85c22eea46e753fc1298a30c58cd6d1).
 ![](https://waralpha.io/assets/screenshots/inventory.png)
 
 Each part are more or less powerfull. Some engines make you fater, some weapons deal more damages, ans so on.
@@ -125,9 +125,11 @@ Here is the DSL model of a level:
 
 The GitHub repository is a mono-repo containing :
 
-- The game, located in src/game, built with PhaserJS, a 2D javascript game engine, and AlgoSDK for creating and updating the NFTs.
+- The game, located in src/game, built with PhaserJS, a 2D javascript game engine. The DSL is available in `dsl.json` in the `metaverse` folder.
 
-- The images and metadata generator for the NFTs, located in src/generator, a custom script that takes the 4 cabins, 4 wings, 4 engines, and 4 weapons and mixes them together to create the 256 combinations of JSON metadata and png files.
+- The images and metadata generator for the NFTs, located in src/generator, a custom script that takes the 4 cabins, 4 wings, 4 engines, and 4 weapons and mixes them together to create the 256 combinations of JSON metadata and png files. Note that the script automatically uploads the images to IPFS using an infura gateway and generates the metadata with the IPFS links.
+
+- The smart contracts for upgradable NFTs in src/contracts, which is a modified ERC721, created with OpenZepellin, Hardhat, and Typechain.
 
 ## What's next?
 
