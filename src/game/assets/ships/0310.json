@@ -1,8 +1,8 @@
 {
-  "name": "WarAlpha Ship 0310",
-  "description": "A WarAlpha Upgradable Spaceship",
-  "external_url": "https://waralpha.io/assets/ships/0310.svg",
-  "image": "https://waralpha.io/assets/ships/0310.svg",
+  "name": "EOSpaceQuest Ship 0310",
+  "description": "A EOSpaceQuest Upgradable Spaceship",
+  "external_url": "https://eospace.quest/assets/ships/0310.svg",
+  "image": "https://eospace.quest/assets/ships/0310.svg",
   "attributes": [
     {
       "cabin": 0,

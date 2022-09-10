@@ -1,8 +1,8 @@
 {
-  "name": "WarAlpha Ship 1001",
-  "description": "A WarAlpha Upgradable Spaceship",
-  "external_url": "https://waralpha.io/assets/ships/1001.svg",
-  "image": "https://waralpha.io/assets/ships/1001.svg",
+  "name": "EOSpaceQuest Ship 1001",
+  "description": "A EOSpaceQuest Upgradable Spaceship",
+  "external_url": "https://eospace.quest/assets/ships/1001.svg",
+  "image": "https://eospace.quest/assets/ships/1001.svg",
   "attributes": [
     {
       "cabin": 1,

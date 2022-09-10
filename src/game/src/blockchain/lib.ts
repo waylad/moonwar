@@ -28,12 +28,12 @@ export const connectWallet = async () => {
       method: 'wallet_addEthereumChain',
       params: [
         {
-          chainId: '0x13881',
-          rpcUrls: ['https://rpc-mumbai.maticvigil.com/'],
-          chainName: 'Polygon Mumbai',
+          chainId: '0x3CC3',
+          rpcUrls: ['https://api.testnet-dev.trust.one'],
+          chainName: 'Trust EVM Testnet',
           nativeCurrency: {
-            name: 'MATIC',
-            symbol: 'MATIC',
+            name: 'EVM',
+            symbol: 'EVM',
             decimals: 16,
           },
           blockExplorerUrls: null,

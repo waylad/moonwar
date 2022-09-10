@@ -10,8 +10,8 @@ export let state: State = {
   enemyHealth: 0,
   enemyThrust: 0,
   enemyWeaponPower: 0,
-  spaceShipsContract: '0xC95D885A85A3fc66F6c2c9511E8769e9CbC70363',
-  spaceCoinsContract: '0x393fDB069940aF8E7AFd04ab9D61A0E2Bb474d03',
+  spaceShipsContract: '0xaa71521B33f97CF7466519025BC6d60F55B9dD44',
+  spaceCoinsContract: '0x43a4394Aa97Dd5962653886aeD985247d79706cb',
   ownedShips: [],
   currentShip: {
     tokenId: 0,

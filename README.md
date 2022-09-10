@@ -1,50 +1,50 @@
-## War Alpha Metaverse V2
+## EOSpace.quest
 
-### Demo Video: https://youtu.be/NSbEqkFKTYY
+### Demo Video: Coming soon...
 
-### Demo: https://waralpha.io
+### Demo: https://eospace.quest
 
-War Alpha Metaverse V2 is a space shooter game on Polygon with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
+EOSpaceQuest Metaverse V2 is a space shooter game on Trust EVM with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
 
 ## About the game
 
-WarAlpha is a fully working game available at https://waralpha.io
-![](https://waralpha.io/assets/screenshots/level-1.png)
+EOSpaceQuest is a fully working game available at https://eospace.quest
+![](https://eospace.quest/assets/screenshots/level-1.png)
 
 You play the game with your NFT spaceship. Mint a basic ship to start with. Access the game and fight enemy ships. Harvest their parts. Upgrade your ship. Then sell your upgraded NFT ship.
-![](https://waralpha.io/assets/screenshots/present-model.png)
+![](https://eospace.quest/assets/screenshots/present-model.png)
 
 We have created an NFT collection of 256 unique spaceships made of a combination of 4 different cabins, 4 wings, 4 engines, and 4 weapons.
-![](https://waralpha.io/assets/screenshots/present-parts.png)
-![](https://waralpha.io/assets/screenshots/present-possibilities.png)
+![](https://eospace.quest/assets/screenshots/present-parts.png)
+![](https://eospace.quest/assets/screenshots/present-possibilities.png)
 
-Make sure you have installed Metamask and connected it to the Polygon `Testnet`, then click "Connect your Wallet". Metamask will open to authorize the connection.
-![](https://waralpha.io/assets/bg-home.png)
+Make sure you have installed Metamask and connected it to the Trust EVM `Testnet`, then click "Connect your Wallet". Metamask will open to authorize the connection.
+![](https://eospace.quest/assets/bg-home.png)
 
 The game will then fetch all your spaceship NFTs from the smart contract. If you do not yet have an spaceship NFT, click "Mint New Ship" and Metamask will open to trigger the mint. You will receive a basic ship with entry-level weapons, wings, engine, and cabin. The ship will appear in your list of ships (if not refresh the page). Select that ship to access the game.
-![](https://waralpha.io/assets/screenshots/select-ship-2.png)
+![](https://eospace.quest/assets/screenshots/select-ship-2.png)
 
 You will see a little story at the beginning of every level with multiple choices. Depending on your response, this will display additional stories and/or trigger some effect. Effects can impact your health, thrust and weapon power, or those of your enemy. After the story, you will confront the enemy of the level.
 
 The game is built with PhaserJS, a 2D Javascript game engine that allows you to pilot the ship and fire at enemies. Use the directional arrows to move the ship and press the space bar to fire. Try to kill the enemy ship, but be careful not to get hit. You have 30 health points then it's game over. Enemies have various health points depending on their level and your responses in the stories. When the enemy is destroyed, it drops some loot. Move your ship over it to get it into your inventory.
-![](https://waralpha.io/assets/screenshots/level-2.png)
+![](https://eospace.quest/assets/screenshots/level-2.png)
 
-Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Polygon transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can check an explorer to verify the transaction](https://mumbai.polygonscan.com/tx/0x742bf07e995faddfabc23262fe1ddce4b85c22eea46e753fc1298a30c58cd6d1).
-![](https://waralpha.io/assets/screenshots/inventory.png)
+Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Trust EVM transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can check an explorer to verify the transaction](https://mumbai.Trust EVMscan.com/tx/0x742bf07e995faddfabc23262fe1ddce4b85c22eea46e753fc1298a30c58cd6d1).
+![](https://eospace.quest/assets/screenshots/inventory.png)
 
 Each part are more or less powerfull. Some engines make you fater, some weapons deal more damages, ans so on.
 
 Finally, once you have destroyed the enemy, you can move to the next area. Click the star icon to open the galaxy map. You can fly your ship to the stars in range. Click the one you want to move to and be ready to fight an harder enemy.
-![](https://waralpha.io/assets/screenshots/map.png)
+![](https://eospace.quest/assets/screenshots/map.png)
 
 Move from one star to another until you reach the boss of the game, an insanely powerful ship with devastating weapons.
-![](https://waralpha.io/assets/screenshots/level-4.png)
+![](https://eospace.quest/assets/screenshots/level-4.png)
 
-If you defeat the boss, you win WarAlpha!
+If you defeat the boss, you win EOSpaceQuest!
 
 ## About the DSL (Domain Specific Language)
 
-WarAlpha is not only a game, it's a metaverse! Players can generate their own adventures by editing the configuration file `dsl.json` which lists the whole configuration of the game and levels. You can create your own galaxy and advantures! Everything you see in the game is configurable.
+EOSpaceQuest is not only a game, it's a metaverse! Players can generate their own adventures by editing the configuration file `dsl.json` which lists the whole configuration of the game and levels. You can create your own galaxy and advantures! Everything you see in the game is configurable.
 
 JSON files are part of the `exchange languages` category of DSLs.
 

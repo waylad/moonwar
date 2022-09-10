@@ -10,8 +10,8 @@ import { MapScene } from './scenes/mapScene';
 import { DialogScene } from './scenes/dialogScene';
 
 export const GameConfig: Phaser.Types.Core.GameConfig = {
-  title: 'WarAlpha',
-  url: 'https://waralpha.io',
+  title: 'EOSpaceQuest',
+  url: 'https://eospace.quest',
   version: '3.0',
   width: 1600,
   height: 800,

@@ -20,7 +20,7 @@ describe("Unit tests", function () {
   describe("SpaceShips", function () {
     beforeEach(async function () {
       const spaceshipsArtifact: Artifact = await artifacts.readArtifact("SpaceShips");
-      this.spaceships = <SpaceShips>await waffle.deployContract(this.signers.admin, spaceshipsArtifact, ['Spaceship', 'WARALPHA']);
+      this.spaceships = <SpaceShips>await waffle.deployContract(this.signers.admin, spaceshipsArtifact, ['Spaceship', 'EOSpaceQuest']);
     });
 
     shouldBehaveLikeSpaceShips();

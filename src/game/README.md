@@ -1,4 +1,4 @@
-# Phaser game for WarAlpha
+# Phaser game for EOSpaceQuest
 
 To start the game:
 

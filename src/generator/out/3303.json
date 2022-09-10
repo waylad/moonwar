@@ -1,7 +1,7 @@
 {
-  "name": "WarAlpha Ship 3303",
-  "description": "A WarAlpha Upgradable Spaceship",
-  "external_url": "https://waralpha.io/assets/ships/3303.svg",
+  "name": "EOSpaceQuest Ship 3303",
+  "description": "A EOSpaceQuest Upgradable Spaceship",
+  "external_url": "https://eospace.quest/assets/ships/3303.svg",
   "image": "ipfs://QmZJtCrjipyGfN1Pd8VG49b8zvY27dbURfTc244TeSVgrE",
   "attributes": [
     {

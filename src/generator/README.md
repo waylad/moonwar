@@ -1,6 +1,6 @@
 # Spaceships Generator
 
-The WarAlpha spaceship image and metadata generator from multiple parts, and IPFS uploader.
+The EOSpaceQuest spaceship image and metadata generator from multiple parts, and IPFS uploader.
 
 ## Usage
 

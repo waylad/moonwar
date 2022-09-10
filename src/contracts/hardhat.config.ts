@@ -1,17 +1,17 @@
-import { config as dotenvConfig } from "dotenv";
-import { HardhatUserConfig } from "hardhat/config";
-import { NetworkUserConfig } from "hardhat/types";
-import { resolve } from "path";
-
-import "./tasks/accounts";
-import "./tasks/deploy";
 import "@nomiclabs/hardhat-etherscan";
 import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
+import { config as dotenvConfig } from "dotenv";
 import "hardhat-gas-reporter";
+import { HardhatUserConfig } from "hardhat/config";
+import { NetworkUserConfig } from "hardhat/types";
+import { resolve } from "path";
 import "solidity-coverage";
 
-require('hardhat-abi-exporter');
+import "./tasks/accounts";
+import "./tasks/deploy";
+
+require("hardhat-abi-exporter");
 
 dotenvConfig({ path: resolve(__dirname, "./.env") });
 
@@ -38,7 +38,8 @@ const chainIds = {
   rinkeby: 4,
   "meter-testnet": 83,
   "theta-testnet": 365,
-  "xdc-testnet": 51
+  "xdc-testnet": 51,
+  "trust-testnet": 15555,
 };
 
 function getChainConfig(chain: keyof typeof chainIds): NetworkUserConfig {
@@ -57,8 +58,11 @@ function getChainConfig(chain: keyof typeof chainIds): NetworkUserConfig {
       jsonRpcUrl = "https://eth-rpc-api-testnet.thetatoken.org/rpc";
       break;
     case "xdc-testnet":
-        jsonRpcUrl = "https://rpc.apothem.network";
-        break;
+      jsonRpcUrl = "https://rpc.apothem.network";
+      break;
+    case "trust-testnet":
+      jsonRpcUrl = "https://api.testnet-dev.trust.one";
+      break;
     default:
       jsonRpcUrl = "https://" + chain + ".infura.io/v3/" + infuraApiKey;
   }
@@ -76,7 +80,7 @@ function getChainConfig(chain: keyof typeof chainIds): NetworkUserConfig {
 const config: HardhatUserConfig = {
   //@ts-ignore
   abiExporter: {
-    path: './abi',
+    path: "./abi",
     runOnCompile: true,
     clear: true,
     flat: true,
@@ -114,6 +118,7 @@ const config: HardhatUserConfig = {
     "meter-testnet": getChainConfig("meter-testnet"),
     "theta-testnet": getChainConfig("theta-testnet"),
     "xdc-testnet": getChainConfig("xdc-testnet"),
+    "trust-testnet": getChainConfig("trust-testnet"),
     bsc: getChainConfig("bsc"),
     mainnet: getChainConfig("mainnet"),
     optimism: getChainConfig("optimism-mainnet"),

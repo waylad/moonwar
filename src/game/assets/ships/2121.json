@@ -1,8 +1,8 @@
 {
-  "name": "WarAlpha Ship 2121",
-  "description": "A WarAlpha Upgradable Spaceship",
-  "external_url": "https://waralpha.io/assets/ships/2121.svg",
-  "image": "https://waralpha.io/assets/ships/2121.svg",
+  "name": "EOSpaceQuest Ship 2121",
+  "description": "A EOSpaceQuest Upgradable Spaceship",
+  "external_url": "https://eospace.quest/assets/ships/2121.svg",
+  "image": "https://eospace.quest/assets/ships/2121.svg",
   "attributes": [
     {
       "cabin": 2,
