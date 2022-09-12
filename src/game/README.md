@@ -1,4 +1,4 @@
-# Phaser game for EOSpaceQuest
+# Phaser game for EndOfSpace
 
 To start the game:
 

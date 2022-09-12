@@ -1,8 +1,8 @@
 {
-  "name": "EOSpaceQuest Ship 1232",
-  "description": "A EOSpaceQuest Upgradable Spaceship",
-  "external_url": "https://eospace.quest/assets/ships/1232.svg",
-  "image": "https://eospace.quest/assets/ships/1232.svg",
+  "name": "EndOfSpace Ship 1232",
+  "description": "A EndOfSpace Upgradable Spaceship",
+  "external_url": "https://endofspace.io/assets/ships/1232.svg",
+  "image": "https://endofspace.io/assets/ships/1232.svg",
   "attributes": [
     {
       "cabin": 1,

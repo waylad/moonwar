@@ -1,4 +1,4 @@
-# Solidity Contracts for EOSpaceQuest
+# Solidity Contracts for EndOfSpace
 
 Edit `.env` with your see phrase then:
 

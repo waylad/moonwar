@@ -67,9 +67,9 @@ async function createImage(weapon, wing, engine, cabin) {
 
   // Step 3: Generate Metadata
   const meta = {
-    name: `EOSpaceQuest Ship ${shipCode}`,
-    description: 'A EOSpaceQuest Upgradable Spaceship',
-    external_url: `https://eospace.quest/assets/ships/${shipCode}.svg`,
+    name: `EndOfSpace Ship ${shipCode}`,
+    description: 'A EndOfSpace Upgradable Spaceship',
+    external_url: `https://endofspace.io/assets/ships/${shipCode}.svg`,
     image: `ipfs://${upload.path}`,
     attributes: [
       {

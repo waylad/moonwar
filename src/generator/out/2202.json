@@ -1,7 +1,7 @@
 {
-  "name": "EOSpaceQuest Ship 2202",
-  "description": "A EOSpaceQuest Upgradable Spaceship",
-  "external_url": "https://eospace.quest/assets/ships/2202.svg",
+  "name": "EndOfSpace Ship 2202",
+  "description": "A EndOfSpace Upgradable Spaceship",
+  "external_url": "https://endofspace.io/assets/ships/2202.svg",
   "image": "ipfs://QmPARF8NWUZSH3y88Afd9asYH9oLPotkjKpy5Mnjo4Mcsj",
   "attributes": [
     {

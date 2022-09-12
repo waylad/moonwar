@@ -31,7 +31,7 @@ export class ConnectWalletScene extends Phaser.Scene {
 
     this.buttonConnectWallet = this.add.image(
       this.sys.canvas.width / 2,
-      this.sys.canvas.height / 2 + 300,
+      this.sys.canvas.height / 2 + 0,
       'buttonConnectWallet',
     )
     this.buttonConnectWallet.setSize(this.buttonConnectWallet.width, this.buttonConnectWallet.height)

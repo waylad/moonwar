@@ -29,7 +29,7 @@ contract SpaceShips is ERC721URIStorage {
         _addTokenToOwnerEnumeration(owner, tokenId);
 
         //string(bytes.concat(bytes(a), " ", bytes(b)))
-        string memory metadataURI = string(abi.encodePacked("https://eospace.quest/assets/ships/", "0000", ".json"));
+        string memory metadataURI = string(abi.encodePacked("https://endofspace.io/assets/ships/", "0000", ".json"));
         _setTokenURI(tokenId, metadataURI);
 
         return tokenId;
@@ -38,7 +38,7 @@ contract SpaceShips is ERC721URIStorage {
     function upgradeShip(uint256 tokenId, string memory shipCode) public {
         _tokenToShipCode[tokenId] = shipCode;
 
-        string memory metadataURI = string(abi.encodePacked("https://eospace.quest/assets/ships/", shipCode, ".json"));
+        string memory metadataURI = string(abi.encodePacked("https://endofspace.io/assets/ships/", shipCode, ".json"));
 
         _setTokenURI(tokenId, metadataURI);
     }

@@ -1,50 +1,52 @@
-## EOSpace.quest
+## End Of Space (EOS) on EOS ^^
 
-### Demo Video: Coming soon...
+### Demo Video: https://youtu.be/vQ51oiqy7s4
 
-### Demo: https://eospace.quest
+### Demo: https://EndOfSpace.io
 
-EOSpaceQuest Metaverse V2 is a space shooter game on Trust EVM with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
+End Of Space is a space shooter game on Trust EVM with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
+
+Note the clever play on word that EOS here means End Of Space but also the blockchain the game is running on!
 
 ## About the game
 
-EOSpaceQuest is a fully working game available at https://eospace.quest
-![](https://eospace.quest/assets/screenshots/level-1.png)
+End Of Space is a fully working game available at https://endofspace.io
+![](https://endofspace.io/assets/screenshots/level-1.png)
 
 You play the game with your NFT spaceship. Mint a basic ship to start with. Access the game and fight enemy ships. Harvest their parts. Upgrade your ship. Then sell your upgraded NFT ship.
-![](https://eospace.quest/assets/screenshots/present-model.png)
+![](https://endofspace.io/assets/screenshots/present-model.png)
 
 We have created an NFT collection of 256 unique spaceships made of a combination of 4 different cabins, 4 wings, 4 engines, and 4 weapons.
-![](https://eospace.quest/assets/screenshots/present-parts.png)
-![](https://eospace.quest/assets/screenshots/present-possibilities.png)
+![](https://endofspace.io/assets/screenshots/present-parts.png)
+![](https://endofspace.io/assets/screenshots/present-possibilities.png)
 
 Make sure you have installed Metamask and connected it to the Trust EVM `Testnet`, then click "Connect your Wallet". Metamask will open to authorize the connection.
-![](https://eospace.quest/assets/bg-home.png)
+![](https://endofspace.io/assets/bg-home.png)
 
 The game will then fetch all your spaceship NFTs from the smart contract. If you do not yet have an spaceship NFT, click "Mint New Ship" and Metamask will open to trigger the mint. You will receive a basic ship with entry-level weapons, wings, engine, and cabin. The ship will appear in your list of ships (if not refresh the page). Select that ship to access the game.
-![](https://eospace.quest/assets/screenshots/select-ship-2.png)
+![](https://endofspace.io/assets/screenshots/select-ship-2.png)
 
 You will see a little story at the beginning of every level with multiple choices. Depending on your response, this will display additional stories and/or trigger some effect. Effects can impact your health, thrust and weapon power, or those of your enemy. After the story, you will confront the enemy of the level.
 
 The game is built with PhaserJS, a 2D Javascript game engine that allows you to pilot the ship and fire at enemies. Use the directional arrows to move the ship and press the space bar to fire. Try to kill the enemy ship, but be careful not to get hit. You have 30 health points then it's game over. Enemies have various health points depending on their level and your responses in the stories. When the enemy is destroyed, it drops some loot. Move your ship over it to get it into your inventory.
-![](https://eospace.quest/assets/screenshots/level-2.png)
+![](https://endofspace.io/assets/screenshots/level-2.png)
 
 Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Trust EVM transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can check an explorer to verify the transaction](https://mumbai.Trust EVMscan.com/tx/0x742bf07e995faddfabc23262fe1ddce4b85c22eea46e753fc1298a30c58cd6d1).
-![](https://eospace.quest/assets/screenshots/inventory.png)
+![](https://endofspace.io/assets/screenshots/inventory.png)
 
 Each part are more or less powerfull. Some engines make you fater, some weapons deal more damages, ans so on.
 
 Finally, once you have destroyed the enemy, you can move to the next area. Click the star icon to open the galaxy map. You can fly your ship to the stars in range. Click the one you want to move to and be ready to fight an harder enemy.
-![](https://eospace.quest/assets/screenshots/map.png)
+![](https://endofspace.io/assets/screenshots/map.png)
 
 Move from one star to another until you reach the boss of the game, an insanely powerful ship with devastating weapons.
-![](https://eospace.quest/assets/screenshots/level-4.png)
+![](https://endofspace.io/assets/screenshots/level-4.png)
 
-If you defeat the boss, you win EOSpaceQuest!
+If you defeat the boss, you win End Of Space!
 
 ## About the DSL (Domain Specific Language)
 
-EOSpaceQuest is not only a game, it's a metaverse! Players can generate their own adventures by editing the configuration file `dsl.json` which lists the whole configuration of the game and levels. You can create your own galaxy and advantures! Everything you see in the game is configurable.
+End Of Space is not only a game, it's a metaverse! Players can generate their own adventures by editing the configuration file `dsl.json` which lists the whole configuration of the game and levels. You can create your own galaxy and advantures! Everything you see in the game is configurable.
 
 JSON files are part of the `exchange languages` category of DSLs.
 
