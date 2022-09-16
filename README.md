@@ -8,7 +8,7 @@ End Of Space is a space shooter game on [Trust EVM](https://trust.one/), the off
 
 Note the clever play on word here : EOS means End Of Space but also the blockchain the game is running on!
 
-Note also that we chose Trust EVM on EOS for its speed and affordable gas price, but the game could be deployed on any EVM compatible blockchain.
+The game could be deployed on any EVM compatible blockchain but we chose Trust EVM for its speed and affordable gas price.
 
 ## About the game
 
