@@ -4,9 +4,11 @@
 
 ### Demo: https://EndOfSpace.io
 
-End Of Space is a space shooter game on Trust EVM with upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
+End Of Space is a space shooter game on [Trust EVM](https://trust.one/), the official EVM compatible L2 of EOS. End Of Space has upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
 
-Note the clever play on word that EOS here means End Of Space but also the blockchain the game is running on!
+Note the clever play on word here : EOS means End Of Space but also the blockchain the game is running on!
+
+Note also that we chose Trust EVM on EOS for its speed and affordable gas price, but the game could be deployed on any EVM compatible blockchain.
 
 ## About the game
 
@@ -20,10 +22,22 @@ We have created an NFT collection of 256 unique spaceships made of a combination
 ![](https://endofspace.io/assets/screenshots/present-parts.png)
 ![](https://endofspace.io/assets/screenshots/present-possibilities.png)
 
-Make sure you have installed Metamask and connected it to the Trust EVM `Testnet`, then click "Connect your Wallet". Metamask will open to authorize the connection.
+Make sure you have installed Metamask and connected it to the `Trust EVM Testnet`, then click "Connect your Wallet". Metamask will open to authorize the connection and should ask you to switch your network to Trust EVM. If not you can manually add that network using this config :
+
+```
+Network Name: Trust Network Testnet Preview
+Chain ID: 15555
+New RPC URL*: https://api.testnet-dev.trust.one
+Currency Symbol: EVM
+Block Explorer URL (Optional): https://trustscan.one
+```
+
+Make sure you have a few test tokens to test the game. You can use the test token faucet at https://faucet.testnet-dev.trust.one/
+
+You are now ready to play End Of Space!
 ![](https://endofspace.io/assets/bg-home.png)
 
-The game will then fetch all your spaceship NFTs from the smart contract. If you do not yet have an spaceship NFT, click "Mint New Ship" and Metamask will open to trigger the mint. You will receive a basic ship with entry-level weapons, wings, engine, and cabin. The ship will appear in your list of ships (if not refresh the page). Select that ship to access the game.
+Once your wallet is connected, the game will attempt to fetch all your spaceship NFTs from the smart contract. If you do not yet have an spaceship NFT, click "Mint New Ship" and Metamask will open to trigger the mint. You will receive a basic ship with entry-level weapons, wings, engine, and cabin. The ship will appear in your list of ships (if not refresh the page). Select that ship to access the game.
 ![](https://endofspace.io/assets/screenshots/select-ship-2.png)
 
 You will see a little story at the beginning of every level with multiple choices. Depending on your response, this will display additional stories and/or trigger some effect. Effects can impact your health, thrust and weapon power, or those of your enemy. After the story, you will confront the enemy of the level.
@@ -31,10 +45,10 @@ You will see a little story at the beginning of every level with multiple choice
 The game is built with PhaserJS, a 2D Javascript game engine that allows you to pilot the ship and fire at enemies. Use the directional arrows to move the ship and press the space bar to fire. Try to kill the enemy ship, but be careful not to get hit. You have 30 health points then it's game over. Enemies have various health points depending on their level and your responses in the stories. When the enemy is destroyed, it drops some loot. Move your ship over it to get it into your inventory.
 ![](https://endofspace.io/assets/screenshots/level-2.png)
 
-Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Trust EVM transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can check an explorer to verify the transaction](https://mumbai.Trust EVMscan.com/tx/0x742bf07e995faddfabc23262fe1ddce4b85c22eea46e753fc1298a30c58cd6d1).
+Then open your inventory to see all the parts you have found. Drag and drop a ship part to its corresponding area on your ship to upgrade that part. An Trust EVM transaction opens that will actually modify your NFT metadata and image on-chain with the new part. [You can view the transaction on TrustScan](https://trustscan.one/tx/0x485e079c357ef2d1f53247016ea3843334a25b8a627d3107ef6b63dc9969da2c).
 ![](https://endofspace.io/assets/screenshots/inventory.png)
 
-Each part are more or less powerfull. Some engines make you fater, some weapons deal more damages, ans so on.
+Each part are more or less powerful. Some engines make you faster, some weapons deal more damages, and so on.
 
 Finally, once you have destroyed the enemy, you can move to the next area. Click the star icon to open the galaxy map. You can fly your ship to the stars in range. Click the one you want to move to and be ready to fight an harder enemy.
 ![](https://endofspace.io/assets/screenshots/map.png)
@@ -136,3 +150,7 @@ The GitHub repository is a mono-repo containing :
 ## What's next?
 
 We want to create more spaceship parts and generate a collection of 10,000 unique ships then sell that collection in order to finance the development of the game to build more enemies, worlds, a multiplayer mode, some storytelling, improve the DSL, and so on...
+
+## Any questions?
+
+If you have any questions or need access to the source code on Github, please email me at waylad42@gmail.com
