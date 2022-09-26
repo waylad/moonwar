@@ -1,14 +1,14 @@
-## MOONWAR
+## MoonWar
 
 ### Demo Video: https://youtu.be/n9K53hpc2qs
 
 ### Demo: https://moonwar.io
 
-MOONWAR is a space shooter game on Moonbeam. MOONWAR has upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
+MoonWar is a space shooter game on Moonbeam. MoonWar has upgradable NFT spaceships and a built-in DSL for you to create your own adventures! Let's first look into the game itself then the DSL.
 
 ## About the game
 
-MOONWAR is a fully working game available at https://moonwar.io
+MoonWar is a fully working game available at https://moonwar.io
 ![](https://moonwar.io/assets/screenshots/level-1.png)
 
 You play the game with your NFT spaceship. Mint a basic ship to start with. Access the game and fight enemy ships. Harvest their parts. Upgrade your ship. Then sell your upgraded NFT ship.
@@ -20,7 +20,7 @@ We have created an NFT collection of 256 unique spaceships made of a combination
 
 Make sure you have installed Metamask and connected it to `Moonbase Alpha`, then click "Connect your Wallet".
 
-You are now ready to play MOONWAR!
+You are now ready to play MoonWar!
 ![](https://moonwar.io/assets/bg-home.png)
 
 Once your wallet is connected, the game will attempt to fetch all your spaceship NFTs from the smart contract. If you do not yet have an spaceship NFT, click "Mint New Ship" and Metamask will open to trigger the mint. You will receive a basic ship with entry-level weapons, wings, engine, and cabin. The ship will appear in your list of ships (if not refresh the page). Select that ship to access the game.
@@ -42,11 +42,11 @@ Finally, once you have destroyed the enemy, you can move to the next area. Click
 Move from one star to another until you reach the boss of the game, an insanely powerful ship with devastating weapons.
 ![](https://moonwar.io/assets/screenshots/level-4.png)
 
-If you defeat the boss, you win MOONWAR!
+If you defeat the boss, you win MoonWar!
 
 ## About the DSL (Domain Specific Language)
 
-MOONWAR is not only a game, it's a metaverse! Players can generate their own adventures by editing the configuration file `dsl.json` which lists the whole configuration of the game and levels. You can create your own galaxy and advantures! Everything you see in the game is configurable.
+MoonWar is not only a game, it's a metaverse! Players can generate their own adventures by editing the configuration file `dsl.json` which lists the whole configuration of the game and levels. You can create your own galaxy and advantures! Everything you see in the game is configurable.
 
 JSON files are part of the `exchange languages` category of DSLs.
 
