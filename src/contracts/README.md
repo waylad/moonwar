@@ -1,4 +1,4 @@
-# Solidity Contracts for EndOfSpace
+# Solidity Contracts for MoonWar
 
 Edit `.env` with your see phrase then:
 

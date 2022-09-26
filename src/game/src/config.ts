@@ -10,8 +10,8 @@ import { MapScene } from './scenes/mapScene';
 import { DialogScene } from './scenes/dialogScene';
 
 export const GameConfig: Phaser.Types.Core.GameConfig = {
-  title: 'EndOfSpace',
-  url: 'https://endofspace.io',
+  title: 'MoonWar',
+  url: 'https://moonwar.io',
   version: '3.0',
   width: 1600,
   height: 800,

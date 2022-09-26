@@ -1,4 +1,4 @@
-# Phaser game for EndOfSpace
+# Phaser game for MoonWar
 
 To start the game:
 

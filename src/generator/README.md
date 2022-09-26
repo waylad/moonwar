@@ -1,6 +1,6 @@
 # Spaceships Generator
 
-The EndOfSpace spaceship image and metadata generator from multiple parts, and IPFS uploader.
+The MoonWar spaceship image and metadata generator from multiple parts, and IPFS uploader.
 
 ## Usage
 

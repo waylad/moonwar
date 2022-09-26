@@ -28,12 +28,12 @@ export const connectWallet = async () => {
       method: 'wallet_addEthereumChain',
       params: [
         {
-          chainId: '0x3CC3',
-          rpcUrls: ['https://api.testnet-dev.trust.one'],
-          chainName: 'Trust EVM Testnet',
+          chainId: '0x507',
+          rpcUrls: ['https://rpc.api.moonbase.moonbeam.network'],
+          chainName: 'Moonbase Alpha',
           nativeCurrency: {
-            name: 'EVM',
-            symbol: 'EVM',
+            name: 'DEV',
+            symbol: 'DEV',
             decimals: 16,
           },
           blockExplorerUrls: null,

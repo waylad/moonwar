@@ -1,15 +1,15 @@
-import "@nomiclabs/hardhat-etherscan";
-import "@nomiclabs/hardhat-waffle";
-import "@typechain/hardhat";
 import { config as dotenvConfig } from "dotenv";
-import "hardhat-gas-reporter";
 import { HardhatUserConfig } from "hardhat/config";
 import { NetworkUserConfig } from "hardhat/types";
 import { resolve } from "path";
-import "solidity-coverage";
 
 import "./tasks/accounts";
 import "./tasks/deploy";
+import "@nomiclabs/hardhat-etherscan";
+import "@nomiclabs/hardhat-waffle";
+import "@typechain/hardhat";
+import "hardhat-gas-reporter";
+import "solidity-coverage";
 
 require("hardhat-abi-exporter");
 
@@ -40,6 +40,7 @@ const chainIds = {
   "theta-testnet": 365,
   "xdc-testnet": 51,
   "trust-testnet": 15555,
+  "moonbase-testnet": 1287,
 };
 
 function getChainConfig(chain: keyof typeof chainIds): NetworkUserConfig {
@@ -63,6 +64,9 @@ function getChainConfig(chain: keyof typeof chainIds): NetworkUserConfig {
     case "trust-testnet":
       jsonRpcUrl = "https://api.testnet-dev.trust.one";
       break;
+      case "moonbase-testnet":
+        jsonRpcUrl = "https://rpc.api.moonbase.moonbeam.network";
+        break;
     default:
       jsonRpcUrl = "https://" + chain + ".infura.io/v3/" + infuraApiKey;
   }
@@ -119,6 +123,7 @@ const config: HardhatUserConfig = {
     "theta-testnet": getChainConfig("theta-testnet"),
     "xdc-testnet": getChainConfig("xdc-testnet"),
     "trust-testnet": getChainConfig("trust-testnet"),
+    "moonbase-testnet": getChainConfig("moonbase-testnet"),
     bsc: getChainConfig("bsc"),
     mainnet: getChainConfig("mainnet"),
     optimism: getChainConfig("optimism-mainnet"),

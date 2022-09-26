@@ -67,9 +67,9 @@ async function createImage(weapon, wing, engine, cabin) {
 
   // Step 3: Generate Metadata
   const meta = {
-    name: `EndOfSpace Ship ${shipCode}`,
-    description: 'A EndOfSpace Upgradable Spaceship',
-    external_url: `https://endofspace.io/assets/ships/${shipCode}.svg`,
+    name: `MoonWar Ship ${shipCode}`,
+    description: 'A MoonWar Upgradable Spaceship',
+    external_url: `https://moonwar.io/assets/ships/${shipCode}.svg`,
     image: `ipfs://${upload.path}`,
     attributes: [
       {

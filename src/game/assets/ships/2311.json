@@ -1,8 +1,8 @@
 {
-  "name": "EndOfSpace Ship 2311",
-  "description": "A EndOfSpace Upgradable Spaceship",
-  "external_url": "https://endofspace.io/assets/ships/2311.svg",
-  "image": "https://endofspace.io/assets/ships/2311.svg",
+  "name": "MoonWar Ship 2311",
+  "description": "A MoonWar Upgradable Spaceship",
+  "external_url": "https://moonwar.io/assets/ships/2311.svg",
+  "image": "https://moonwar.io/assets/ships/2311.svg",
   "attributes": [
     {
       "cabin": 2,
